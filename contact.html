@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html land="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio with Bootstrap</title>
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <link rel="stylesheet" type="text/css"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    
+    </head>
+    <body class = "sBody">
+        
+        <nav class="navbar border-bottom border-primary p-0 sNav">
+            <div class="container h-100" style="width: 60%; margin:auto; ">
+                <a href="#" class="navbar-brand bg-info text-white p-3">Indima Dias</a>
+                
+                <div class="container navbar-right w-50 mr-0"> <!--container for the navgation bar-->
+                            
+                    <a href="./index.html" class="nav-item p-2 text-center">About</a>
+                    <a href="./portfolio.html" class="nav-item p-2">Portfolio</a>
+                    <a href="./contact.html" class="nav-item p-2">Contact</a>
+                </div>
+            </div>
+
+
+        </nav>
+        <div class="container my-5 text-justify p-4 border sContainer" style="width:60%;">
+            <div class="row width-100 border-bottom">
+                <h3 class="font-italic text-info">Contact</h2>
+            </div>    
+            <form>
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter name">
+                      <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                    </div>
+                    <div class="form-group">
+                      <label for="email"> Email </label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message"> Message </label>
+                        <!-- <input type="textarea" class="form-control" id="message" rows="10"> -->
+                        <textarea id="message" class= "form-control md-textarea" rows="7"></textarea>
+                    </div>         
+
+                    <button type="submit" class="btn btn-info">Submit</button>
+                  </form>                  
+        </div>
+        
+        
+        <div class="footer-margin iFooter" >
+                <footer class="card-footer footer-font-style text-muted footer-position iFooter">
+                        copyright@
+                </footer>
+        </div>
+
+    </body>
+</html>        

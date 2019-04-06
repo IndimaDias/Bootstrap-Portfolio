@@ -1,0 +1,40 @@
+.iFooter{
+    margin-bottom: 0;
+    text-align: center;
+    height: 75px;
+    background-color: grey;
+    border-top-style: solid;
+    border-top-color: darkcyan;
+    border-top-width: thick;
+}
+
+.imgText{
+    background-color: darkcyan;
+    text-align: center;
+    padding: 10px ;
+    position: absolute;
+    bottom:0;
+    margin:0;
+    height: 50px;;
+    /* width:90%; */
+}
+
+.sBody{
+    background-color:#eff3f9;
+    background-image: url("../images/leaves.png");
+    
+}
+
+.sContainer{
+    background-color:white;
+
+}
+
+.sNav{
+    background-color: white;
+}
+
+.sFooter{
+    background-color: grey;
+    border-top: darkcyan 3px;
+}
