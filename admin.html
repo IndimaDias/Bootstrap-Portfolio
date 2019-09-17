@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio admin</title>
+
+    <link rel="stylesheet" type ="text/css" href = "assets/css/reset.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" type = "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection">
+    
+    <link rel = "stylesheet" type = "text/css" href="./assets/css/styles.css">
+</head>
+<body>
+    
+    <div class="container">
+            <div id = "cardLogin" class="card">
+                <div class="row">
+                    <form id ="frmLogin">
+                        <div class="row ">
+                            <div class="input-field col l12">
+                                <input id="userName" type="text">
+                                <label for="userName">Username</label>
+                            </div>   
+                        </div>
+                        <div class="row">
+                            <div class="input-field col l12">
+                                <input id="password" type="password">
+                                <label for="password">Password</label>
+                            </div>                        
+                        </div>
+                        
+                        <div class="row">
+                            <div class="input-field col l4">
+                                <input id="btnSubmit" type="submit" class="btn">
+                                
+                            </div>                        
+                       </div>
+                       
+    
+                    </form>
+                </div>
+            </div>
+    <!-- </div> -->
+
+    <!-- <div id = "cardProjects" class="container"> -->
+            <div id = "cardProjects" class="card">
+                <div class="row">
+                    <form id="frmProjects">
+                        <h4 class = "center-align">Enter project details</h4>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id= "proTitle" type = "text">
+                                <label for="proTitle"> Project Title</label>
+                            </div>                            
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id= "imgAddress" type = "text">
+                                <label for="imgAddress"> Image Address</label>
+                            </div>                            
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id= "proLink" type = "text">
+                                <label for="proLink"> Project Link</label>
+                            </div>                            
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id= "proGitLink" type = "text">
+                                <label for="proGitLink"> Git Link</label>
+                            </div>                            
+                        </div>                        
+                        <div class="row">
+                            <div class="input-field col l4">
+                                <input id="btnAddImg" type="submit" class="btn">
+                                
+                            </div>                        
+                       </div>
+                    </form>
+                </div>
+            </div>
+    
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>    
+     <script src="assets/javascript/app.js"></script>
+     <script src="assets/javascript/adminApp.js"></script>
+</body>
+</html>
